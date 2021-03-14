@@ -1,0 +1,44 @@
+header {
+    color:crimson;
+    text-align: center;
+}
+
+body {
+    background-color: black;
+    color: crimson;
+    font: normal 12pt Arial;
+    
+}
+
+section {
+    background-color: crimson;
+    color: black;
+    border-radius: 10px;
+    width: 400px;
+    padding: 15px;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgb(241, 52, 90);
+
+}
+
+input {
+    border-radius: 10px;
+    border-color: rgb(241, 10, 56);
+    
+
+}
+
+footer {
+    text-align: center;
+    color: crimson;
+    font-style: italic;
+}
+
+select#flista {
+    width: 150px;
+    border-radius: 10px ;
+    
+}
+
+
+

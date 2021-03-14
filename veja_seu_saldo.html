@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <title>Projeto 01</title>
+        <meta charset="UTF-8">
+        <style>
+            body{
+                background-color: rgb(49, 47, 47);
+                color: rgb(255, 255, 255);
+                font: normal 20pt Arial;
+            }
+            h1{
+                color: rgb(58, 205, 241);
+            }
+          
+        </style>
+
+    </header>
+
+    <body>
+        <h1>Veja seu Saldo</h1>
+        <p>De forma simples e rápida</p>
+
+        <script>
+            var nome = prompt("digite o seu nome");
+            var banco = prompt("Digite o nome do seu banco");
+            var n1 = Number(prompt ("digite quanto você recebeu"));
+            var n2 = Number(prompt ("digite quanto você gastou!"));
+            var sub = n1 - n2 ;
+           
+            document.write(`Prazer ${nome}, seu saldo é ${ sub.toLocaleString('pt-BR', {style:'currency', currency:'BRL'})}.`);
+            
+
+            
+
+
+        </script>
+
+    </body>
+</html>
